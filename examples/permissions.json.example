@@ -1,12 +1,13 @@
 {
-	"global":{
-		"eval": false,
-		"pullanddeploy": false
-	},
-	"users":{
-		"userid":{
-			"eval": false,
-			"pullanddeploy": true
-		}
-	}
+    "commands": {
+		"reload": [
+            "GUILDID"
+        ],
+        "servers": [
+            "GUILDID"
+        ],
+        "welcome": [
+            "GUILDID"
+		]
+    }
 }
